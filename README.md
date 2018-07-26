@@ -1,4 +1,4 @@
-### BotAPI ###
+### Treasure Hunter BOT ###
 
 * Quick summary -
 The Treasure Hunter is designed to retrieves product details from eCommerce sites and Look for a treasure based on our search parameters 
@@ -10,24 +10,12 @@ The Treasure Hunter is designed to retrieves product details from eCommerce site
 The project requires Python 3
 Setting up is quick and easy. Just run 
 ``` 
-#!python
 pip install -r requirements.txt
 ``` 
-from the root of the project.
-
-* Configuration - 
-Download and install python 3.6
-
-
-```
-#!python
-python get-pip.py
-pip install -r requirements.txt
-```
-and you are good to go.
+from the root of the project and you are good to go.
 
 * Dependencies - 
-beautifulsoup4 4.6.0, requests
+beautifulsoup4, requests
 
 ### Who do I talk to? ###
 
