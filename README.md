@@ -11,6 +11,7 @@ The project requires Python 3
 Setting up is quick and easy. Just run 
 ``` 
 pip install -r requirements.txt
+python treasureHunter.py
 ``` 
 from the root of the project and you are good to go.
 

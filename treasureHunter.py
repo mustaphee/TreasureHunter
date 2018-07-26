@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup as b
 
 
 base_url = 'https://www.jumia.com.ng/fitness/'
-total_products = 0
 
 def csv_writer(name, price, url):
   with open('products.csv', 'a') as f:
@@ -32,7 +31,7 @@ def get_details(soup):
     price = chilli.find('span', {'class': 'price '}).find('span', {'dir': 'ltr'})['data-price']
     url = chilli.find('a', attrs={"class": "link"})['href']
     total_products =+ 1
-    if price == '1500': 
+    if price == '500': 
         print('\n'+"Found a Suspect, check "+name+" It is sold for "+price+" The url is "+url)
         output = (("*"*95)+'\n'+"This Might be the Product we are looking for!!!"+"\n"+"Product Name: "+name+ "\n" +"Product Price: "+price+"\n"+"Product Link: "+url+"\n"+("*"*95)+'\n')
     else:
